@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
 
-import LoginPage from '../../../../support/pageObjects/LoginPage'
-import Dashboardpage from '../../../../support/pageObjects/DashboardPage'
-import ShipmentQuery from '../../../../support/pageObjects/ShipmentQuery'
+import LoginPage from '../../../../support/PageComponentMethods/LoginPage'
+import Dashboardpage from '../../../../support/PageComponentMethods/DashboardPage'
+import ShipmentQuery from '../../../../support/PageComponentMethods/ShipmentQuery'
 import { Given,When,Then, And } from 'cypress-cucumber-preprocessor/steps'
 const lp=new LoginPage()
 const sh=new Dashboardpage()
