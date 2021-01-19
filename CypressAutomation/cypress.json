@@ -2,8 +2,7 @@
   "chromeWebSecurity":false,
   "defaultCommandTimeout": 8000,
   "pageLoadTimeout": 30000,
-  "reporter": "mochawesome",
-  
+  "reporter": "mochawesome",  
   "env": {
     "url": "https://rahulshettyacademy.com"
   },
@@ -16,5 +15,5 @@
   
  
   
-  "projectId": "a5zbka"
+  "projectId": "ye36qq"
 }
